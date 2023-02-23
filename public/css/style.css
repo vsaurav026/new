@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-style: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .upper-div {
@@ -78,6 +78,9 @@
   border-radius: 5rem;
   margin-top: 2.5rem;
 }
+.upper-div__login-form__agree{
+  text-align: center;
+}
 .upper-div__login-form__agree a {
   text-decoration: none;
   color: gray;
@@ -93,14 +96,19 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: 100%;
+  background-size: cover;
 }
 .upper-div__image-section-div__background-image__content {
-  postion: absolute;
+  height: 100%;
+  background: #00000082;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .upper-div__image-section-div__background-image__content__uper-section {
   display: flex;
   justify-content: end;
+  padding: 3%;
 }
 .upper-div__image-section-div__background-image__content__uper-section a {
   text-decoration: none;
@@ -113,8 +121,19 @@
   margin-right: 0.7rem;
 }
 .upper-div__image-section-div__background-image__content__middle-section {
-  margin-top: 11.5rem;
-  margin-left: 5.5rem;
+  margin-left: 7%;
+}
+.upper-div__image-section-div__background-image__content__middle-section h2{
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 100;
+  font-size: 34px;
+}
+.column-1{
+  display: grid;
+    grid-template-columns: auto auto;
+    width: 60%;
+    gap: 35px;
 }
 .upper-div__image-section-div__background-image__content__middle-section__parent-div {
   display: flex;
@@ -122,12 +141,28 @@
 .upper-div__image-section-div__background-image__content__middle-section__parent-div__column-1__item-1 {
   align-items: center;
   display: flex;
+  gap: 10px;
+  color: white;
 }
 .upper-div__image-section-div__background-image__content__middle-section__parent-div__column-1__item-2 {
   align-items: center;
   display: flex;
+  gap: 10px;
+
+  color: white;
+
 }
 .upper-div__image-section-div__background-image__content__middle-section__parent-div__column-1__item-3 {
   align-items: center;
   display: flex;
+  gap: 10px;
+
+  color: white;
+
 }/*# sourceMappingURL=style.css.map */
+.upper-div__image-section-div__background-image__content__lower-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+}
